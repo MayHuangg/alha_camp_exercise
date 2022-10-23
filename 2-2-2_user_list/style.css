@@ -1,0 +1,36 @@
+@media (max-width: 576px) {
+  .responsive-font {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-font {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 992px) {
+  .responsive-font {
+    font-size: 25px;
+  }
+}
+
+.change {
+  transition: color .7s linear;
+  transition: background-color .7s linear;
+}
+
+.change:hover {
+  background-color: rgb(0, 123, 255, 0.7);
+  color: white;
+  cursor: pointer;
+}
+
+p {
+  margin: 0px;
+}
+
+/* body {
+  background: linear-gradient(to bottom, rgb(0, 123, 255, 0.7), white);
+} */
